@@ -1,4 +1,4 @@
-//
+    //
 //  ContentView.swift
 //  SwiftUI-List
 //
@@ -7,10 +7,25 @@
 //
 
 import SwiftUI
+    
+struct Room : Identifiable{
+    let id = UUID()
+    var name: String
+    let createdAt = Date()
+}
 
 struct ContentView: View {
     var body: some View {
-        Text("Hello, World!")
+        
+        NavigationView {
+            HomeView()
+            .navigationBarTitle("Conversation")
+                .navigationBarItems(trailing: Button(action: {
+                    //
+                }, label: {
+                    Text("Add")
+                }))
+        }
     }
 }
 

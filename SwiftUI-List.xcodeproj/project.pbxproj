@@ -13,6 +13,9 @@
 		045A103923E3D4D3000AABE9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 045A103823E3D4D3000AABE9 /* Assets.xcassets */; };
 		045A103C23E3D4D3000AABE9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 045A103B23E3D4D3000AABE9 /* Preview Assets.xcassets */; };
 		045A103F23E3D4D3000AABE9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 045A103D23E3D4D3000AABE9 /* LaunchScreen.storyboard */; };
+		045A104923E3E16C000AABE9 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045A104823E3E16C000AABE9 /* HomeView.swift */; };
+		045A104B23E3E2CC000AABE9 /* ChatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045A104A23E3E2CC000AABE9 /* ChatView.swift */; };
+		045A104D23E41ECB000AABE9 /* TutorialView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045A104C23E41ECB000AABE9 /* TutorialView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		045A103B23E3D4D3000AABE9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		045A103E23E3D4D3000AABE9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		045A104023E3D4D3000AABE9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		045A104823E3E16C000AABE9 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		045A104A23E3E2CC000AABE9 /* ChatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatView.swift; sourceTree = "<group>"; };
+		045A104C23E41ECB000AABE9 /* TutorialView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TutorialView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +65,9 @@
 				045A103223E3D4CF000AABE9 /* AppDelegate.swift */,
 				045A103423E3D4CF000AABE9 /* SceneDelegate.swift */,
 				045A103623E3D4CF000AABE9 /* ContentView.swift */,
+				045A104C23E41ECB000AABE9 /* TutorialView.swift */,
+				045A104A23E3E2CC000AABE9 /* ChatView.swift */,
+				045A104823E3E16C000AABE9 /* HomeView.swift */,
 				045A103823E3D4D3000AABE9 /* Assets.xcassets */,
 				045A103D23E3D4D3000AABE9 /* LaunchScreen.storyboard */,
 				045A104023E3D4D3000AABE9 /* Info.plist */,
@@ -147,6 +156,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				045A103323E3D4CF000AABE9 /* AppDelegate.swift in Sources */,
+				045A104923E3E16C000AABE9 /* HomeView.swift in Sources */,
+				045A104D23E41ECB000AABE9 /* TutorialView.swift in Sources */,
+				045A104B23E3E2CC000AABE9 /* ChatView.swift in Sources */,
 				045A103523E3D4CF000AABE9 /* SceneDelegate.swift in Sources */,
 				045A103723E3D4CF000AABE9 /* ContentView.swift in Sources */,
 			);
