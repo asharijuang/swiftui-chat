@@ -1,6 +1,3 @@
-# swiftui-chat
-Chat ui
-
-Tutorial Swift UI
+# Tutorial Swift UI - Qiscus Chat UI
 
 Use Case: Chat application
