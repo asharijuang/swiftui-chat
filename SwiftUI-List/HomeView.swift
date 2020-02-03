@@ -11,7 +11,6 @@ import SwiftUI
 struct HomeView: View {
     var rooms : [Room] = [Room(name: "Qiscus Office"), Room(name: "Other Office"), Room(name: "Client Enterprise")]
     
-    
     var body: some View {
         // Similar with Table View
         List {
